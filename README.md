@@ -14,6 +14,14 @@ This is a fullstack AI-powered Q&A application that allows users to ask question
 
 <img width="1491" alt="Screenshot 2025-05-08 at 12 36 00 AM" src="https://github.com/user-attachments/assets/01b13283-d59c-4181-892d-a742535b9152" />
 
+## 📸 System Design
+
+![techstack](https://github.com/user-attachments/assets/2e44d07e-8e31-4c6f-8ba4-e7192165a852)
+
+## 📸 Backend Flow
+
+![backend-flow](https://github.com/user-attachments/assets/461bc440-f179-4b8f-9afa-630e12db993c)
+
 
 ---
 
