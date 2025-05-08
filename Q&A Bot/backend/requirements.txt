@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+openai
+langchain
+langchain-community
+langchain-pinecone
+pinecone
+PyMuPDF
+tiktoken
