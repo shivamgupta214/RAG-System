@@ -79,7 +79,7 @@ PINECONE_ENVIRONMENT=your-pinecone-environment
 ---
 🚀 How to Run the App
 
-git clone https://github.com/your-username/salesforce-qa-app.git
+git clone https://github.com/shivamgupta214/RAG-System.git
 
 cd salesforce-qa-app
 
