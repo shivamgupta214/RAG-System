@@ -12,7 +12,8 @@ This is a fullstack AI-powered Q&A application that allows users to ask question
 
 ## 📸 Demo Screenshot
 
-![RAG-System](./screenshots/demo.png)
+<img width="1491" alt="Screenshot 2025-05-08 at 12 36 00 AM" src="https://github.com/user-attachments/assets/01b13283-d59c-4181-892d-a742535b9152" />
+
 
 ---
 
@@ -32,6 +33,7 @@ This is a fullstack AI-powered Q&A application that allows users to ask question
 project/
 ├── backend/ # FastAPI backend
 │ ├── main.py # WebSocket + LangChain logic
+│ ├── ingest.py # ⬅️ Loads PDFs, chunks, embeds to Pinecone
 │ ├── requirements.txt # Python dependencies
 │ ├── Dockerfile # Backend Docker image
 │ └── .env # Environment variables
@@ -44,6 +46,15 @@ project/
 
 ---
 
+
+## 🧾 `ingest.py` – Document Ingestion Pipeline
+
+This script loads your **PDF transcripts**, **splits** them into chunks using LangChain’s `RecursiveCharacterTextSplitter`, and **embeds** them into **Pinecone** using `OpenAIEmbeddings`.
+
+### ✅ How to use:
+
+cd backend
+python ingest.py
 
 ---
 
