@@ -71,16 +71,21 @@ python ingest.py
 ### `.env` file inside `/backend`:
 
 OPENAI_API_KEY=your-openai-api-key
+
 PINECONE_API_KEY=your-pinecone-api-key
+
 PINECONE_ENVIRONMENT=your-pinecone-environment
 
 ---
 🚀 How to Run the App
+
 git clone https://github.com/your-username/salesforce-qa-app.git
+
 cd salesforce-qa-app
 
 Run command: 
 - docker-compose up --build  # ✅ This will start the FastAPI backend at http://localhost:8000 and start the React frontend at http://localhost:3000
+
   
 Rebuild only frontend - docker-compose build frontend
 Rebuild only backend - docker-compose build backend
